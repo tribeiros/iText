@@ -20,13 +20,24 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
-    <script src="js/routes.js"></script>
+    <!--<script src="js/routes.js"></script>-->
     <!--<script src="js/controllers.js"></script>-->
   </head>
   <body ng-app="starter">
       <ion-nav-bar class="bar bar-positive">
         <ion-nav-back-button></ion-nav-back-button>
       </ion-nav-bar>
+      <ion-view>
+  <ion-nav-title>iTexr</ion-nav-title>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <ion-input placeholder="Text Input"></ion-input>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>
       <ion-nav-view></ion-nav-view>
       <ion-footer-bar class="bar-stable">
         <h1 class="title">Fim do Mundo</h1>
